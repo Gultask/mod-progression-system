@@ -84,6 +84,97 @@ SELECT `minlevel`, `maxlevel` FROM `creature_template` WHERE `entry` IN (
 30798, -- Ogri'la Peacekeeper (1)
 );
 
+UPDATE `creature_template` SET `minlevel`=16, `maxlevel`=16 WHERE `entry` IN (
+68, -- Stormwind City Guard
+727, -- Ironforge Mountaineer
+1423, -- Stormwind Guard
+1475, -- Menethil Guard
+1652, -- Deathguard Burgess
+1735, -- Deathguard Abraham
+1736, -- Deathguard Randolph
+1737, -- Deathguard Oliver
+1738, -- Deathguard Terrence
+1739, -- Deathguard Phillip
+1742, -- Deathguard Bartholomew
+1743, -- Deathguard Lawrence
+1744, -- Deathguard Mort
+1745, -- Deathguard Morris
+1746, -- Deathguard Cyrus
+1976, -- Stormwind City Patroller
+2041, -- Ancient Protector
+2209, -- Deathguard Gavin
+2210, -- Deathguard Royann
+2405, -- Tarren Mill Deathguard
+2621, -- Hammerfall Guardian
+3084, -- Bluffwatcher
+3210, -- Brave Proudsnout
+3211, -- Brave Lightninghorn
+3213, -- Brave Running Wolf
+3214, -- Brave Greathoof
+3296, -- Orgrimmar Grunt
+3297, -- Sen'jin Watcher
+3469, -- Ancient of War
+3502, -- Ratchet Bruiser
+3571, -- Teldrassil Sentinel
+4262, -- Darnassus Sentinel
+5595, -- Ironforge Guard
+5624, -- Undercity Guardian
+5952, -- Den Grunt
+5953, -- Razor Hill Grunt
+7980, -- Deathguard Elite
+8151, -- Nijel's Point Guard
+9460, -- Gadgetzan Bruiser
+10676, -- Raider Jhash
+10682, -- Raider Kerr
+11040, -- Watcher Brownell
+11190, -- Everlook Bruiser
+12338, -- Shadowprey Guardian
+12996, -- Mounted Ironforge Mountaineer
+13076, -- Dun Morogh Mountaineer
+14182, -- Bounty Hunter Kolark
+15184, -- Cenarion Hold Infantry
+16221, -- Silvermoon Guardian
+16222, -- Silvermoon City Guardian
+16733, -- Exodar Peacekeeper
+17855, -- Expedition Warden
+18038, -- Azuremyst Peacekeeper
+18549, -- Aldor Vindicator
+18568, -- Scryer Arcane Guardian
+19687, -- Shattrath City Peacekeeper
+20556, -- Stormwind Marine
+23115, -- Ogri'la Peacekeeper
+23257, -- Skyguard Windcharger
+24491, -- Deathguard Florence
+30798, -- Ogri'la Peacekeeper (1)
+36213  -- Kor'kron Overseer
+);
+
+UPDATE `creature_template` SET `minlevel`=19, `maxlevel`=19 WHERE `entry` IN (
+3083, -- Honor Guard
+9460, -- Gadgetzan Bruiser
+11190, -- Everlook Bruiser
+14304, -- Kor'kron Elite
+14375, -- Scout Stronghand
+14376, -- Scout Manslayer
+14377, -- Scout Tharr
+20674, -- Shield of Velen
+29254, -- Silver Covenant Guardian Mage
+29255, -- Sunreaver Guardian Mage
+30737  -- Nesingwary Game Warden
+);
+
+UPDATE `creature_template` SET `minlevel`=22, `maxlevel`=22 WHERE `entry` IN (
+2784, -- King Magni Bronzebeard
+3057, -- Cairne Bloodhoof
+4949, -- Thrall
+7999, -- Tyrande Whisperwind
+10181, -- Lady Sylvanas Windrunner
+16802, -- Lor'themar Theron
+17468, -- Prophet Velen
+29611, -- King Varian Wrynn
+37764  -- Lor'themar Theron
+);
+
 UPDATE `creature_template` SET `minlevel`=21, `maxlevel`=21 WHERE `entry`=1738;
 UPDATE `creature_template` SET `minlevel`=21, `maxlevel`=21 WHERE `entry`=1746;
 UPDATE `creature_template` SET `minlevel`=22, `maxlevel`=25 WHERE `entry`=1423;
